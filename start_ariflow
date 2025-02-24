@@ -1,0 +1,12 @@
+Two steps
+1. start webserver
+2. start scheduler
+
+starting webserver at new terminal
+source ~/airflow_project/airflow_venv/bin/activate 
+airflow webserver --port 8085
+
+
+starting scheduler at new terminal
+source ~/airflow_project/airflow_venv/bin/activate 
+airflow scheduler
